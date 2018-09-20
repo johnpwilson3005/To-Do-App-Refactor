@@ -1,0 +1,51 @@
+/* Global Styles */
+/* font cheat sheet:
+font-family: 'PT Serif', serif; */
+body {
+  background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+margin: 0 auto;
+  }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', serif;
+}
+
+/* Spacing */
+
+.input-space {
+  margin-bottom: 15px;
+}
+
+.empty-for-now {
+  list-style-type: none;
+}
+
+.created-li {
+  height: 30px;
+}
+
+.space-bottom {
+  padding-bottom: 30px;
+}
+
+.more-space {
+  padding-bottom: 115px;
+}
+/* Buttons */
+.done-button {
+  border: none;
+  border-radius: 5px;
+}
+
+.delete-button {
+  border: none;
+  border-radius: 5px;
+}
+
+.edit-button {
+  border: none;
+  border-radius: 5px;
+}
